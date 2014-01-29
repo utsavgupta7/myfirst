@@ -67,7 +67,7 @@ DATABASES = {
 ##DATABASE_ENGINE='django.db.backends.mysql'
 ##DATABASE_NAME='books'
 ##DATABASE_USER='root'
-##DATABASE_PASSWORD='jaimatadi'
+##DATABASE_PASSWORD='fuckPassword'
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
