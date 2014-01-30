@@ -2,6 +2,11 @@
 <head>
 </head>
 <body>
+{%if errors%}
+{%for error in errors%}
+<p style="color:red;">{{error}}</p>
+{%endfor%}
+{%endif%}
 <form action="/search/" method="get">
 <input type="text" name="q">
 <input type="submit" name="search">
